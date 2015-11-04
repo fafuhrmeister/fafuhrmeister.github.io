@@ -16,6 +16,7 @@ a {
 p {
     color: #fff;
     text-align: center;
+    padding: 0 10px 0 20px;
 }
 
 /*************************
@@ -29,12 +30,16 @@ nav {
 }
 
 nav li {
-  display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5% 0 5%;
+    padding: 20px;
+    list-style: none;
 }
 
 nav ul {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 10px 0 10px;
   padding: 0;
 }
 
@@ -42,25 +47,26 @@ nav a:hover {
   color: #ccc
 }
 
-li {
-    text-decoration: none;
-    display: inline-block;
-    margin: 10% 0 10%;
-    padding: 20px;
-    list-style: none;
+i:hover {
+    color: #ccc;
 }
+
+a:hover {
+    color: #ccc;
+}
+
 
 /*************
 HEADER
 **************/
 
 header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
 }
+
 #logo {
     text-align: center;
     margin: 0;
@@ -68,7 +74,15 @@ header {
 }
 
 h1, h2 {
-  color: #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.logos {
+    width: auto;
+    height: 65px;
+    margin: auto;
+    max-width: 100%;
 }
 
 
@@ -86,10 +100,18 @@ footer {
     color: #fff;
 }
 
-.social-icon {
+/* .social-icon {
     width: 50px;
     height: 50px;
     margin: 0 5px;
     background-color: #fff;
     border-radius: 100%;
+}
+*/
+
+i {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 2.5%;
+    display: inline-block;
 }
