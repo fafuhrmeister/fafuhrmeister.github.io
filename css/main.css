@@ -5,7 +5,7 @@ GENERAL
 body {
     background-color: #2d2d2d;
     max-width: 100%;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Roboto Mono', 'Helvetica Nueue', sans-serif;
 }
 
 a {
@@ -41,14 +41,6 @@ nav ul {
   list-style: none;
   margin: 0 10px 0 10px;
   padding: 0;
-}
-
-nav a:hover {
-  color: #ccc
-}
-
-i:hover {
-    color: #ccc;
 }
 
 a:hover {
