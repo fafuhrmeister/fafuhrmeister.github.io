@@ -22,7 +22,7 @@ p {
 
 section {
     width: 60%;
-    margin: 0 10% 0 10%;
+    margin: auto;
 }
 
 /*************************
@@ -47,6 +47,10 @@ NAVIGATION
 /*    margin: 5% 0 5%;*/
 /*    padding: 20px;*/
 /*    list-style: none;*/
+/*}*/
+
+/*nav a:hover {*/
+/*  color: #ccc*/
 /*}*/
 
 a:hover {
