@@ -29,6 +29,12 @@ nav {
   margin: 20px 0 0;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
+
 nav li {
     text-decoration: none;
     display: inline-block;
@@ -37,15 +43,14 @@ nav li {
     list-style: none;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 10px 0 10px;
-  padding: 0;
-}
-
 a:hover {
     color: #ccc;
 }
+
+i:hover {
+    color: #ccc;
+}
+
 
 
 /*************
@@ -58,12 +63,6 @@ header {
     margin: 0 0 30px 0;
     padding: 5px 0 0 0;
     width: 100%;
-}
-
-#logo {
-    text-align: center;
-    margin: 0;
-    text-decoration: none;
 }
 
 h1, h2 {
@@ -80,7 +79,6 @@ h1, h2 {
 
 
 
-
 /*************
 FOOTER
 **************/
@@ -92,15 +90,6 @@ footer {
     padding-top: 50px;
     color: #fff;
 }
-
-/* .social-icon {
-    width: 50px;
-    height: 50px;
-    margin: 0 5px;
-    background-color: #fff;
-    border-radius: 100%;
-}
-*/
 
 i {
     color: #fff;
