@@ -19,6 +19,10 @@ p {
     padding: 0 10px 0 20px;
 }
 
+.main-content {
+    column-count: 2;
+}
+
 /*************************
 NAVIGATION
 *************************/
@@ -76,6 +80,7 @@ h1, h2 {
     margin: auto;
     max-width: 100%;
 }
+
 
 
 
