@@ -19,9 +19,9 @@ p {
     padding: 0 10px 0 20px;
 }
 
-/*.main-content {*/
-/*    column-count: 2;*/
-/*}*/
+.main-content {
+    width: 60%;
+}
 
 /*************************
 NAVIGATION
