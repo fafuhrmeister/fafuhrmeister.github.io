@@ -20,8 +20,8 @@ p {
     line-height: 1.25;
 }
 
-section {
-    width: 60%;
+.main-content {
+    width: 75%;
     margin: auto;
 }
 
@@ -29,36 +29,47 @@ section {
 NAVIGATION
 *************************/
 
-/*nav {*/
-/*  text-align: center;*/
-/*  padding: 10px 0;*/
-/*  margin: 20px 0 0;*/
-/*}*/
+/*nav {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
 
-/*nav ul {*/
-/*  list-style: none;*/
-/*  margin: 0 10px 0 10px;*/
-/*  padding: 0;*/
-/*}*/
+nav ul {
+  list-style: none;
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
 
-/*nav li {*/
-/*    text-decoration: none;*/
-/*    display: inline-block;*/
-/*    margin: 5% 0 5%;*/
-/*    padding: 20px;*/
-/*    list-style: none;*/
-/*}*/
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5% 0 5%;
+    padding: 20px;
+    list-style: none;
+  }
 
-/*nav a:hover {*/
-/*  color: #ccc*/
-/*}*/
+nav a:hover {
+  border-bottom: 2px solid #ccc;
+}*/
 
 a:hover {
-    color: #ccc;
+    color: #c9ac5f;
+}
+
+#callout:hover {
+  color: #c9ac5f;
+  border-bottom: 2px solid #c9ac5f;
 }
 
 i:hover {
-    color: #ccc;
+    color: #c9ac5f;
+}
+
+.logos:hover {
+  background-image: url(..img/SUMS-gold-logo.png);
+  color: #c9ac5f;
 }
 
 
@@ -87,7 +98,12 @@ h1, h2 {
     max-width: 100%;
 }
 
-
+#callout {
+  font-size: 1.125em;
+  /*padding: 0 9px 3px;
+  display: inline-block;
+  margin: 20px auto 0;*/
+}
 
 
 /*************
