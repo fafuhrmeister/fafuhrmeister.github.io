@@ -23,7 +23,7 @@ p {
 .main-content {
     width: 75%;
     margin: auto;
-    max-width: 960px;
+    max-width: 600px;
 }
 
 /*************************
@@ -62,6 +62,8 @@ a:hover {
 #callout:hover {
   color: #c9ac5f;
   border-bottom: 2px solid #c9ac5f;
+  max-width: 145px;
+  margin: auto;
 }
 
 i:hover {
@@ -101,9 +103,7 @@ h1, h2 {
 
 #callout {
   font-size: 1.125em;
-  /*padding: 0 9px 3px;
-  display: inline-block;
-  margin: 20px auto 0;*/
+  margin: auto;
 }
 
 
