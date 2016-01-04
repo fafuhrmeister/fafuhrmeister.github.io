@@ -61,7 +61,7 @@ a:hover {
 
 #callout:hover {
   color: #c9ac5f;
-  border-bottom: 2px solid #c9ac5f;
+  border: 2px solid #c9ac5f;
   max-width: 145px;
   margin: auto;
 }
