@@ -5,7 +5,8 @@ GENERAL
 body {
     background-color: #2d2d2d;
     max-width: 100%;
-    font-family: 'Roboto Mono', 'Helvetica Nueue', sans-serif;
+    /*font-family: 'Roboto Mono', 'Helvetica Nueue', sans-serif;*/
+    font-family: 'Roboto Mono';
 }
 
 a {
