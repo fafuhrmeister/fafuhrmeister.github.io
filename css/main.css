@@ -70,8 +70,8 @@ i:hover {
     color: #c9ac5f;
 }
 
-.logos:hover {
-  background-image: url(..img/SUMS-gold-logo.png);
+#logos:hover {
+  background-image: url(..img/StillUpMySleeve-logo.png);
 }
 
 
