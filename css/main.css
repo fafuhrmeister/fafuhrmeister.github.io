@@ -71,6 +71,10 @@ i:hover {
     color: #c9ac5f;
 }
 
+.social:hover {
+  color: #c9ac5f;
+}
+
 /*#logos:hover {
     background-image: url(..img/StillUpMySleeve-logo.png);
   }*/
@@ -124,6 +128,13 @@ i {
     padding: 10px 20px;
     margin: 2.5%;
     display: inline-block;
+}
+
+.social {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 2.5%;
+  display: inline-block;
 }
 
 .copyright {
